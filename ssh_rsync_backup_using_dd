@@ -1,0 +1,12 @@
+rsync -avze "ssh -o IdentitiesOnly=yes -i lcfs-key.pem" Pictures/ ec2-user@ec2-3-28-57-33.me-central-1.compute.amazonaws.com:/home/ec2-user/Pictures/
+
+ssh -o "IdentitiesOnly yes" -i "lcfs-key.pem" ec2-user@ec2-3-28-57-33.me-central-1.compute.amazonaws.com
+
+backup
+sudo dd if=/dev/vda of=diskimage.raw bs=1M status=progress
+
+restore
+sudo dd of=diskimage.raw if=/dev/vda bs=1M status=progress
+
+
+
