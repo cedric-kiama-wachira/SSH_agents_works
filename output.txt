@@ -1,0 +1,5 @@
+/etc/pki/ca-trust/extracted/edk2/README:The file is in the EDK2 (EFI Development Kit II) file format.
+/etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release:The following public key can be used to verify RPM packages built and
+/etc/dbus-1/session.conf:These directives can override D-Bus or OS defaults.
+/etc/dbus-1/system.conf:These directives can override D-Bus or OS defaults.
+/etc/cloud/templates/chef_client.rb.tmpl:The reason these are not in quotes is because they are ruby
